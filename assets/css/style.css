@@ -1,0 +1,66 @@
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#gif-input{
+    width: 50%;
+    height: 2.5em;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+#find-gif {
+    height: 2.5em;
+    width: 80px;
+    border: none;
+    background: #ddd;
+    font-size: 0.8em;
+}
+
+.container2 {
+    margin: 30px auto;
+    width: 100%;
+}
+
+button {
+    margin: 0 5px 15px 5px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1em;
+    background-color: olivedrab;
+}
+
+button:hover {
+    /* zoom: 1.2; */
+    background-color: orange;
+
+}
+
+.card {
+    float: left;
+    margin: 5px;
+}
+
+.container1 {
+    background: url("https://phactual.com/wp-content/uploads/2015/03/maxresdefault-1-1900x1068_c.jpg") no-repeat;
+    color: #fff;
+    height: 200px;
+}
+
+h1 {
+    padding-top: 15px;
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    
+}
+
+#gif-view {
+    margin-left:100px;;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
